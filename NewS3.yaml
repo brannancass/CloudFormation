@@ -5,4 +5,5 @@ Description:
 Resources:
   bcassBucket:
     Type: AWS::S3::Bucket
-    BucketName: bcassBucket-12345
+    Properties:
+      BucketName: bcassBucket-12345
